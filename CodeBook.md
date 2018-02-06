@@ -3,20 +3,28 @@ Getting and Cleaning Data Course Project
 
 
 
-The script processes raw data set into a tidy data for analysis. The following variables
-are described below:
+The script processes raw data set into a tidy data for analysis. The following variables are described below:
 
 subject_train: Subject who performed the activity
+
 y_train: Training Labels
+
 X_train: Training Set 
+
 subject_test: Subject who performed the activity
+
 y_test: Test Labels
+
 X_test: Test Set
+
 data_merged: Merged train and test data set
+
 ftrs: Names of measurement
 
 mean_std: Matching columns
+
 data_mean_std: Data with the matching columns of mean and std
+
 data_extracted: Data extracted using mean and standard deviation with subject and activity
 
 activity_labels: Name of the activity
